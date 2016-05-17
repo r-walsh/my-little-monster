@@ -14,6 +14,13 @@
 		A0C3EAAE1CEB54B8005F460F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C3EAAD1CEB54B8005F460F /* Assets.xcassets */; };
 		A0C3EAB11CEB54B8005F460F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C3EAAF1CEB54B8005F460F /* LaunchScreen.storyboard */; };
 		A0C3EABC1CEB54B8005F460F /* my_little_monsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3EABB1CEB54B8005F460F /* my_little_monsterTests.swift */; };
+		A0C3EAC71CEB6304005F460F /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3EAC61CEB6304005F460F /* DragImage.swift */; };
+		A0C3EAC91CEB6575005F460F /* MonsterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3EAC81CEB6575005F460F /* MonsterImage.swift */; };
+		A0C3EACF1CEB9833005F460F /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0C3EACA1CEB9833005F460F /* bite.wav */; };
+		A0C3EAD01CEB9833005F460F /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0C3EACB1CEB9833005F460F /* cave-music.mp3 */; };
+		A0C3EAD11CEB9833005F460F /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0C3EACC1CEB9833005F460F /* death.wav */; };
+		A0C3EAD21CEB9833005F460F /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0C3EACD1CEB9833005F460F /* heart.wav */; };
+		A0C3EAD31CEB9833005F460F /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0C3EACE1CEB9833005F460F /* skull.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,13 @@
 		A0C3EAB71CEB54B8005F460F /* my-little-monsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-little-monsterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C3EABB1CEB54B8005F460F /* my_little_monsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_little_monsterTests.swift; sourceTree = "<group>"; };
 		A0C3EABD1CEB54B8005F460F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C3EAC61CEB6304005F460F /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
+		A0C3EAC81CEB6575005F460F /* MonsterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImage.swift; sourceTree = "<group>"; };
+		A0C3EACA1CEB9833005F460F /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		A0C3EACB1CEB9833005F460F /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		A0C3EACC1CEB9833005F460F /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		A0C3EACD1CEB9833005F460F /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		A0C3EACE1CEB9833005F460F /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,11 @@
 		A0C3EAA21CEB54B8005F460F /* my-little-monster */ = {
 			isa = PBXGroup;
 			children = (
+				A0C3EACA1CEB9833005F460F /* bite.wav */,
+				A0C3EACB1CEB9833005F460F /* cave-music.mp3 */,
+				A0C3EACC1CEB9833005F460F /* death.wav */,
+				A0C3EACD1CEB9833005F460F /* heart.wav */,
+				A0C3EACE1CEB9833005F460F /* skull.wav */,
 				A0C3EAA31CEB54B8005F460F /* AppDelegate.swift */,
 				A0C3EAA51CEB54B8005F460F /* ViewController.swift */,
 				A0C3EAA71CEB54B8005F460F /* Main.storyboard */,
@@ -86,6 +105,8 @@
 				A0C3EAAF1CEB54B8005F460F /* LaunchScreen.storyboard */,
 				A0C3EAB21CEB54B8005F460F /* Info.plist */,
 				A0C3EAAA1CEB54B8005F460F /* my_little_monster.xcdatamodeld */,
+				A0C3EAC61CEB6304005F460F /* DragImage.swift */,
+				A0C3EAC81CEB6575005F460F /* MonsterImage.swift */,
 			);
 			path = "my-little-monster";
 			sourceTree = "<group>";
@@ -149,6 +170,7 @@
 				TargetAttributes = {
 					A0C3EA9F1CEB54B8005F460F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 64E54GY97U;
 					};
 					A0C3EAB61CEB54B8005F460F = {
 						CreatedOnToolsVersion = 7.3;
@@ -180,6 +202,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C3EAD31CEB9833005F460F /* skull.wav in Resources */,
+				A0C3EACF1CEB9833005F460F /* bite.wav in Resources */,
+				A0C3EAD11CEB9833005F460F /* death.wav in Resources */,
+				A0C3EAD21CEB9833005F460F /* heart.wav in Resources */,
+				A0C3EAD01CEB9833005F460F /* cave-music.mp3 in Resources */,
 				A0C3EAB11CEB54B8005F460F /* LaunchScreen.storyboard in Resources */,
 				A0C3EAAE1CEB54B8005F460F /* Assets.xcassets in Resources */,
 				A0C3EAA91CEB54B8005F460F /* Main.storyboard in Resources */,
@@ -201,8 +228,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0C3EAA61CEB54B8005F460F /* ViewController.swift in Sources */,
+				A0C3EAC91CEB6575005F460F /* MonsterImage.swift in Sources */,
 				A0C3EAA41CEB54B8005F460F /* AppDelegate.swift in Sources */,
 				A0C3EAAC1CEB54B8005F460F /* my_little_monster.xcdatamodeld in Sources */,
+				A0C3EAC71CEB6304005F460F /* DragImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,10 +362,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "my-little-monster/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "devmountain.rwalsh.my-little-monster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -344,10 +376,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "my-little-monster/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "devmountain.rwalsh.my-little-monster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
